@@ -6,7 +6,7 @@ import { SectionHeading } from "./section-heading";
 const items = [
   { Icon: Phone, label: "Phone", value: "+91 89391 45079", href: "tel:+918939145079", copy: "+91 89391 45079" },
   { Icon: Mail, label: "Email", value: "sj893914@gmail.com", href: "mailto:sj893914@gmail.com", copy: "sj893914@gmail.com" },
-  { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/rohithkumars", href: "https://linkedin.com/", copy: null },
+  { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/rohithkumars", href: "https://www.linkedin.com/in/rohith-kumar-s-399723406/", copy: null },
   { Icon: Github, label: "GitHub", value: "github.com/rohithkumars", href: "https://github.com/", copy: null },
 ];
 

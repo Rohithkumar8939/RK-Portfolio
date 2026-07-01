@@ -137,7 +137,7 @@ export function Hero() {
           >
             {[
               { Icon: Github, href: "https://github.com/" },
-              { Icon: Linkedin, href: "https://linkedin.com/" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/rohith-kumar-s-399723406/" },
               { Icon: Mail, href: "mailto:sj893914@gmail.com" },
             ].map(({ Icon, href }, i) => (
               <motion.a
