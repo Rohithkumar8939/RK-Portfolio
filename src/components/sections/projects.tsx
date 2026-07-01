@@ -9,8 +9,8 @@ const small = [
     description: "A responsive cafe website showcasing modern UI/UX and clean user-focused design.",
     features: ["Responsive layout", "SEO meta tags", "Formspree integration", "WhatsApp CTA", "Smooth animations"],
     actions: [
-      { label: "Live Website", Icon: ExternalLink, href: "#" },
-      { label: "GitHub", Icon: Github, href: "#" },
+      { label: "Live Website", Icon: ExternalLink, href: "https://project-lottle-cafe-ui-ux.vercel.app/" },
+      { label: "GitHub", Icon: Github, href: "https://github.com/Rohithkumar8939/Library-Management-System-LMS" },
     ],
   },
   {
@@ -19,8 +19,8 @@ const small = [
     description: "A web application with authentication and CRUD operations for managing library records.",
     features: ["User authentication", "CRUD operations", "Frontend + Backend + DB", "Real-world workflow"],
     actions: [
-      { label: "Demo Video", Icon: PlayCircle, href: "#" },
-      { label: "GitHub", Icon: Github, href: "#" },
+      { label: "Demo Video", Icon: PlayCircle, href: "https://drive.google.com/file/d/1oCKTp1cnfmXk1MArvAw8kzt4fGEvonal/view?usp=sharing" },
+      { label: "GitHub", Icon: Github, href: "https://github.com/Rohithkumar8939/Library-Management-System-LMS" },
     ],
   },
 ];
@@ -93,17 +93,12 @@ export function Projects() {
 
               <div className="mt-7 flex flex-wrap gap-3">
                 <a
-                  href="#"
-                  className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium text-primary-foreground glow-border"
-                  style={{ background: "linear-gradient(135deg, var(--accent), var(--accent-glow))" }}
+                  href="https://github.com/Saravanan2005real/AI-Powered-Resume-JD-analyzer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium glass hover:bg-secondary transition-colors"
                 >
-                  <ExternalLink size={14} /> Live Preview
-                </a>
-                <a href="#" className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium glass hover:bg-secondary transition-colors">
                   <Github size={14} /> GitHub
-                </a>
-                <a href="#" className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium glass hover:bg-secondary transition-colors">
-                  <FileText size={14} /> Case Study
                 </a>
               </div>
             </div>
